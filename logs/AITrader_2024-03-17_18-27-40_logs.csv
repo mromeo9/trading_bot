@@ -1,0 +1,240 @@
+2024-03-17 18:27:40,587: asyncio: INFO: [AITrader] Executing the initialize lifecycle method
+2024-03-17 18:27:40,812: alpaca.trading.stream: INFO: connected to: wss://paper-api.alpaca.markets/stream
+2024-03-17 18:27:41,225: root: INFO: Current backtesting datetime 2024-01-16 08:30:00-05:00
+2024-03-17 18:27:41,226: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:27:41,227: root: INFO: Current backtesting datetime 2024-01-16 09:30:00-05:00
+2024-03-17 18:27:41,227: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:27:41,228: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:27:41[0m
+2024-03-17 18:27:41,235: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: unsupported operand type(s) for /: 'float' and 'dict'[0m
+2024-03-17 18:27:41,235: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 69, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 57, in position_sizing
+    quantities = np.floor((cash * self.risk)/prices)
+TypeError: unsupported operand type(s) for /: 'float' and 'dict'
+[0m
+2024-03-17 18:27:41,235: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:27:41,236: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:27:41,237: root: INFO: Current backtesting datetime 2024-01-16 16:00:00-05:00
+2024-03-17 18:27:41,237: root: INFO: Current backtesting datetime 2024-01-17 09:30:00-05:00
+2024-03-17 18:27:41,237: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:27:41[0m
+2024-03-17 18:27:41,239: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: unsupported operand type(s) for /: 'float' and 'dict'[0m
+2024-03-17 18:27:41,239: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 69, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 57, in position_sizing
+    quantities = np.floor((cash * self.risk)/prices)
+TypeError: unsupported operand type(s) for /: 'float' and 'dict'
+[0m
+2024-03-17 18:27:41,239: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:27:42,802: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:27:42,803: root: INFO: Current backtesting datetime 2024-01-17 16:00:00-05:00
+2024-03-17 18:27:42,803: root: INFO: Current backtesting datetime 2024-01-18 09:30:00-05:00
+2024-03-17 18:27:42,804: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:27:42[0m
+2024-03-17 18:27:42,805: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: unsupported operand type(s) for /: 'float' and 'dict'[0m
+2024-03-17 18:27:42,805: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 69, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 57, in position_sizing
+    quantities = np.floor((cash * self.risk)/prices)
+TypeError: unsupported operand type(s) for /: 'float' and 'dict'
+[0m
+2024-03-17 18:27:42,805: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:27:43,451: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:27:43,453: root: INFO: Current backtesting datetime 2024-01-18 16:00:00-05:00
+2024-03-17 18:27:43,453: root: INFO: Current backtesting datetime 2024-01-19 09:30:00-05:00
+2024-03-17 18:27:43,453: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:27:43[0m
+2024-03-17 18:27:43,455: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: unsupported operand type(s) for /: 'float' and 'dict'[0m
+2024-03-17 18:27:43,455: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 69, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 57, in position_sizing
+    quantities = np.floor((cash * self.risk)/prices)
+TypeError: unsupported operand type(s) for /: 'float' and 'dict'
+[0m
+2024-03-17 18:27:43,455: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:27:44,005: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:27:44,006: root: INFO: Current backtesting datetime 2024-01-19 16:00:00-05:00
+2024-03-17 18:27:44,006: root: INFO: Current backtesting datetime 2024-01-20 09:30:00-05:00
+2024-03-17 18:27:44,007: asyncio: INFO: [AITrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-03-17 18:27:44,008: root: INFO: Current backtesting datetime 2024-01-20 09:29:00-05:00
+2024-03-17 18:27:44,009: root: INFO: Current backtesting datetime 2024-01-20 09:29:00-05:00
+2024-03-17 18:27:44,009: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:27:44,010: root: INFO: Current backtesting datetime 2024-01-22 08:30:00-05:00
+2024-03-17 18:27:44,010: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:27:44,011: root: INFO: Current backtesting datetime 2024-01-22 09:30:00-05:00
+2024-03-17 18:27:44,011: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:27:44,012: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:27:44[0m
+2024-03-17 18:27:44,013: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: unsupported operand type(s) for /: 'float' and 'dict'[0m
+2024-03-17 18:27:44,014: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 69, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 57, in position_sizing
+    quantities = np.floor((cash * self.risk)/prices)
+TypeError: unsupported operand type(s) for /: 'float' and 'dict'
+[0m
+2024-03-17 18:27:44,014: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:27:44,712: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:27:44,713: root: INFO: Current backtesting datetime 2024-01-22 16:00:00-05:00
+2024-03-17 18:27:44,714: root: INFO: Current backtesting datetime 2024-01-23 09:30:00-05:00
+2024-03-17 18:27:44,714: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:27:44[0m
+2024-03-17 18:27:44,716: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: unsupported operand type(s) for /: 'float' and 'dict'[0m
+2024-03-17 18:27:44,716: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 69, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 57, in position_sizing
+    quantities = np.floor((cash * self.risk)/prices)
+TypeError: unsupported operand type(s) for /: 'float' and 'dict'
+[0m
+2024-03-17 18:27:44,716: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:27:45,047: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:27:45,048: root: INFO: Current backtesting datetime 2024-01-23 16:00:00-05:00
+2024-03-17 18:27:45,048: root: INFO: Current backtesting datetime 2024-01-24 09:30:00-05:00
+2024-03-17 18:27:45,049: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:27:45[0m
+2024-03-17 18:27:45,050: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: unsupported operand type(s) for /: 'float' and 'dict'[0m
+2024-03-17 18:27:45,050: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 69, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 57, in position_sizing
+    quantities = np.floor((cash * self.risk)/prices)
+TypeError: unsupported operand type(s) for /: 'float' and 'dict'
+[0m
+2024-03-17 18:27:45,050: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:27:45,744: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:27:45,745: root: INFO: Current backtesting datetime 2024-01-24 16:00:00-05:00
+2024-03-17 18:27:45,746: root: INFO: Current backtesting datetime 2024-01-25 09:30:00-05:00
+2024-03-17 18:27:45,746: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:27:45[0m
+2024-03-17 18:27:45,748: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: unsupported operand type(s) for /: 'float' and 'dict'[0m
+2024-03-17 18:27:45,748: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 69, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 57, in position_sizing
+    quantities = np.floor((cash * self.risk)/prices)
+TypeError: unsupported operand type(s) for /: 'float' and 'dict'
+[0m
+2024-03-17 18:27:45,748: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:27:46,077: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:27:46,079: root: INFO: Current backtesting datetime 2024-01-25 16:00:00-05:00
+2024-03-17 18:27:46,079: root: INFO: Current backtesting datetime 2024-01-26 09:30:00-05:00
+2024-03-17 18:27:46,079: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:27:46[0m
+2024-03-17 18:27:46,080: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: unsupported operand type(s) for /: 'float' and 'dict'[0m
+2024-03-17 18:27:46,081: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 69, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 57, in position_sizing
+    quantities = np.floor((cash * self.risk)/prices)
+TypeError: unsupported operand type(s) for /: 'float' and 'dict'
+[0m
+2024-03-17 18:27:46,081: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:27:46,749: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:27:46,750: root: INFO: Current backtesting datetime 2024-01-26 16:00:00-05:00
+2024-03-17 18:27:46,751: root: INFO: Current backtesting datetime 2024-01-27 09:30:00-05:00
+2024-03-17 18:27:46,751: asyncio: INFO: [AITrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-03-17 18:27:46,753: root: INFO: Current backtesting datetime 2024-01-27 09:29:00-05:00
+2024-03-17 18:27:46,753: root: INFO: Current backtesting datetime 2024-01-27 09:29:00-05:00
+2024-03-17 18:27:46,753: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:27:46,755: root: INFO: Current backtesting datetime 2024-01-29 08:30:00-05:00
+2024-03-17 18:27:46,755: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:27:46,756: root: INFO: Current backtesting datetime 2024-01-29 09:30:00-05:00
+2024-03-17 18:27:46,756: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:27:46,757: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:27:46[0m
+2024-03-17 18:27:46,758: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: unsupported operand type(s) for /: 'float' and 'dict'[0m
+2024-03-17 18:27:46,758: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 69, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 57, in position_sizing
+    quantities = np.floor((cash * self.risk)/prices)
+TypeError: unsupported operand type(s) for /: 'float' and 'dict'
+[0m
+2024-03-17 18:27:46,758: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:27:47,091: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:27:47,092: root: INFO: Current backtesting datetime 2024-01-29 16:00:00-05:00
+2024-03-17 18:27:47,092: root: INFO: Current backtesting datetime 2024-01-30 09:30:00-05:00
+2024-03-17 18:27:47,093: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:27:47[0m
+2024-03-17 18:27:47,094: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: unsupported operand type(s) for /: 'float' and 'dict'[0m
+2024-03-17 18:27:47,094: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 69, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 57, in position_sizing
+    quantities = np.floor((cash * self.risk)/prices)
+TypeError: unsupported operand type(s) for /: 'float' and 'dict'
+[0m
+2024-03-17 18:27:47,094: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:27:47,782: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:27:47,783: root: INFO: Current backtesting datetime 2024-01-30 16:00:00-05:00
+2024-03-17 18:27:47,783: root: INFO: Current backtesting datetime 2024-01-31 09:30:00-05:00
+2024-03-17 18:27:47,785: root: INFO: Current backtesting datetime 2024-01-31 15:59:00-05:00
+2024-03-17 18:27:47,785: asyncio: INFO: [AITrader] Executing the before_market_closes lifecycle method
+2024-03-17 18:27:47,786: root: INFO: Current backtesting datetime 2024-01-31 16:00:00-05:00
+2024-03-17 18:27:47,786: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:27:47,786: asyncio: INFO: [AITrader] Executing the on_strategy_end lifecycle method
+2024-03-17 18:27:48,115: root: INFO: Backtesting finished
+2024-03-17 18:27:48,533: root: INFO: There were no trades in this backtest.
+2024-03-17 18:27:48,777: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-03-17 18:27:48,777: backtest_stats: INFO: Backtest took 0:00:08.192961 for a speed of 0.000

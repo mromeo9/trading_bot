@@ -1,0 +1,262 @@
+2024-03-17 18:42:10,352: asyncio: INFO: [AITrader] Executing the initialize lifecycle method
+2024-03-17 18:42:10,555: alpaca.trading.stream: INFO: connected to: wss://paper-api.alpaca.markets/stream
+2024-03-17 18:42:10,997: root: INFO: Current backtesting datetime 2024-01-16 08:30:00-05:00
+2024-03-17 18:42:10,997: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:42:10,998: root: INFO: Current backtesting datetime 2024-01-16 09:30:00-05:00
+2024-03-17 18:42:10,998: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:42:10,999: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:42:10[0m
+2024-03-17 18:42:11,007: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Order quantity must be a positive number[0m
+2024-03-17 18:42:11,008: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 72, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 249, in __init__
+    raise ValueError("Order quantity must be a positive number")
+ValueError: Order quantity must be a positive number
+[0m
+2024-03-17 18:42:11,008: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:42:11,009: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:42:11,010: root: INFO: Current backtesting datetime 2024-01-16 16:00:00-05:00
+2024-03-17 18:42:11,010: root: INFO: Current backtesting datetime 2024-01-17 09:30:00-05:00
+2024-03-17 18:42:11,010: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:42:11[0m
+2024-03-17 18:42:11,014: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Order quantity must be a positive number[0m
+2024-03-17 18:42:11,014: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 72, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 249, in __init__
+    raise ValueError("Order quantity must be a positive number")
+ValueError: Order quantity must be a positive number
+[0m
+2024-03-17 18:42:11,014: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:42:12,635: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:42:12,637: root: INFO: Current backtesting datetime 2024-01-17 16:00:00-05:00
+2024-03-17 18:42:12,637: root: INFO: Current backtesting datetime 2024-01-18 09:30:00-05:00
+2024-03-17 18:42:12,637: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:42:12[0m
+2024-03-17 18:42:12,640: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Order quantity must be a positive number[0m
+2024-03-17 18:42:12,640: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 72, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 249, in __init__
+    raise ValueError("Order quantity must be a positive number")
+ValueError: Order quantity must be a positive number
+[0m
+2024-03-17 18:42:12,640: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:42:13,148: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:42:13,150: root: INFO: Current backtesting datetime 2024-01-18 16:00:00-05:00
+2024-03-17 18:42:13,150: root: INFO: Current backtesting datetime 2024-01-19 09:30:00-05:00
+2024-03-17 18:42:13,150: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:42:13[0m
+2024-03-17 18:42:13,153: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Order quantity must be a positive number[0m
+2024-03-17 18:42:13,153: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 72, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 249, in __init__
+    raise ValueError("Order quantity must be a positive number")
+ValueError: Order quantity must be a positive number
+[0m
+2024-03-17 18:42:13,153: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:42:13,834: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:42:13,835: root: INFO: Current backtesting datetime 2024-01-19 16:00:00-05:00
+2024-03-17 18:42:13,835: root: INFO: Current backtesting datetime 2024-01-20 09:30:00-05:00
+2024-03-17 18:42:13,835: asyncio: INFO: [AITrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-03-17 18:42:13,838: root: INFO: Current backtesting datetime 2024-01-20 09:29:00-05:00
+2024-03-17 18:42:13,841: root: INFO: Current backtesting datetime 2024-01-20 09:29:00-05:00
+2024-03-17 18:42:13,841: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:42:13,841: root: INFO: Current backtesting datetime 2024-01-22 08:30:00-05:00
+2024-03-17 18:42:13,842: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:42:13,843: root: INFO: Current backtesting datetime 2024-01-22 09:30:00-05:00
+2024-03-17 18:42:13,843: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:42:13,844: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:42:13[0m
+2024-03-17 18:42:13,846: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Order quantity must be a positive number[0m
+2024-03-17 18:42:13,847: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 72, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 249, in __init__
+    raise ValueError("Order quantity must be a positive number")
+ValueError: Order quantity must be a positive number
+[0m
+2024-03-17 18:42:13,847: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:42:14,366: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:42:14,367: root: INFO: Current backtesting datetime 2024-01-22 16:00:00-05:00
+2024-03-17 18:42:14,367: root: INFO: Current backtesting datetime 2024-01-23 09:30:00-05:00
+2024-03-17 18:42:14,367: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:42:14[0m
+2024-03-17 18:42:14,370: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Order quantity must be a positive number[0m
+2024-03-17 18:42:14,370: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 72, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 249, in __init__
+    raise ValueError("Order quantity must be a positive number")
+ValueError: Order quantity must be a positive number
+[0m
+2024-03-17 18:42:14,370: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:42:14,866: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:42:14,868: root: INFO: Current backtesting datetime 2024-01-23 16:00:00-05:00
+2024-03-17 18:42:14,868: root: INFO: Current backtesting datetime 2024-01-24 09:30:00-05:00
+2024-03-17 18:42:14,868: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:42:14[0m
+2024-03-17 18:42:14,871: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Order quantity must be a positive number[0m
+2024-03-17 18:42:14,871: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 72, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 249, in __init__
+    raise ValueError("Order quantity must be a positive number")
+ValueError: Order quantity must be a positive number
+[0m
+2024-03-17 18:42:14,871: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:42:15,333: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:42:15,335: root: INFO: Current backtesting datetime 2024-01-24 16:00:00-05:00
+2024-03-17 18:42:15,335: root: INFO: Current backtesting datetime 2024-01-25 09:30:00-05:00
+2024-03-17 18:42:15,335: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:42:15[0m
+2024-03-17 18:42:15,337: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Order quantity must be a positive number[0m
+2024-03-17 18:42:15,338: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 72, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 249, in __init__
+    raise ValueError("Order quantity must be a positive number")
+ValueError: Order quantity must be a positive number
+[0m
+2024-03-17 18:42:15,338: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:42:15,823: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:42:15,824: root: INFO: Current backtesting datetime 2024-01-25 16:00:00-05:00
+2024-03-17 18:42:15,825: root: INFO: Current backtesting datetime 2024-01-26 09:30:00-05:00
+2024-03-17 18:42:15,825: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:42:15[0m
+2024-03-17 18:42:15,828: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Order quantity must be a positive number[0m
+2024-03-17 18:42:15,828: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 72, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 249, in __init__
+    raise ValueError("Order quantity must be a positive number")
+ValueError: Order quantity must be a positive number
+[0m
+2024-03-17 18:42:15,828: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:42:16,292: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:42:16,293: root: INFO: Current backtesting datetime 2024-01-26 16:00:00-05:00
+2024-03-17 18:42:16,293: root: INFO: Current backtesting datetime 2024-01-27 09:30:00-05:00
+2024-03-17 18:42:16,294: asyncio: INFO: [AITrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-03-17 18:42:16,295: root: INFO: Current backtesting datetime 2024-01-27 09:29:00-05:00
+2024-03-17 18:42:16,297: root: INFO: Current backtesting datetime 2024-01-27 09:29:00-05:00
+2024-03-17 18:42:16,297: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:42:16,298: root: INFO: Current backtesting datetime 2024-01-29 08:30:00-05:00
+2024-03-17 18:42:16,299: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:42:16,300: root: INFO: Current backtesting datetime 2024-01-29 09:30:00-05:00
+2024-03-17 18:42:16,300: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:42:16,301: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:42:16[0m
+2024-03-17 18:42:16,303: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Order quantity must be a positive number[0m
+2024-03-17 18:42:16,303: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 72, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 249, in __init__
+    raise ValueError("Order quantity must be a positive number")
+ValueError: Order quantity must be a positive number
+[0m
+2024-03-17 18:42:16,304: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:42:16,793: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:42:16,794: root: INFO: Current backtesting datetime 2024-01-29 16:00:00-05:00
+2024-03-17 18:42:16,794: root: INFO: Current backtesting datetime 2024-01-30 09:30:00-05:00
+2024-03-17 18:42:16,794: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:42:16[0m
+2024-03-17 18:42:16,797: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Order quantity must be a positive number[0m
+2024-03-17 18:42:16,797: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 72, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 249, in __init__
+    raise ValueError("Order quantity must be a positive number")
+ValueError: Order quantity must be a positive number
+[0m
+2024-03-17 18:42:16,797: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:42:17,130: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:42:17,131: root: INFO: Current backtesting datetime 2024-01-30 16:00:00-05:00
+2024-03-17 18:42:17,132: root: INFO: Current backtesting datetime 2024-01-31 09:30:00-05:00
+2024-03-17 18:42:17,133: root: INFO: Current backtesting datetime 2024-01-31 15:59:00-05:00
+2024-03-17 18:42:17,133: asyncio: INFO: [AITrader] Executing the before_market_closes lifecycle method
+2024-03-17 18:42:17,134: root: INFO: Current backtesting datetime 2024-01-31 16:00:00-05:00
+2024-03-17 18:42:17,134: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:42:17,134: asyncio: INFO: [AITrader] Executing the on_strategy_end lifecycle method
+2024-03-17 18:42:17,854: root: INFO: Backtesting finished
+2024-03-17 18:42:18,085: root: INFO: There were no trades in this backtest.
+2024-03-17 18:42:18,533: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-03-17 18:42:18,534: backtest_stats: INFO: Backtest took 0:00:08.183922 for a speed of 0.000

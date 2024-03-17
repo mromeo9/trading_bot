@@ -1,0 +1,218 @@
+2024-03-17 18:33:51,046: asyncio: INFO: [AITrader] Executing the initialize lifecycle method
+2024-03-17 18:33:51,255: alpaca.trading.stream: INFO: connected to: wss://paper-api.alpaca.markets/stream
+2024-03-17 18:33:51,704: root: INFO: Current backtesting datetime 2024-01-16 08:30:00-05:00
+2024-03-17 18:33:51,704: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:33:51,705: root: INFO: Current backtesting datetime 2024-01-16 09:30:00-05:00
+2024-03-17 18:33:51,705: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:33:51,706: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:33:51[0m
+2024-03-17 18:33:51,714: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 0[0m
+2024-03-17 18:33:51,715: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 73, in on_trading_iteration
+    if cash > last_prices[i]:
+KeyError: 0
+[0m
+2024-03-17 18:33:51,715: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:33:51,715: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:33:51,716: root: INFO: Current backtesting datetime 2024-01-16 16:00:00-05:00
+2024-03-17 18:33:51,717: root: INFO: Current backtesting datetime 2024-01-17 09:30:00-05:00
+2024-03-17 18:33:51,717: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:33:51[0m
+2024-03-17 18:33:51,719: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 0[0m
+2024-03-17 18:33:51,719: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 73, in on_trading_iteration
+    if cash > last_prices[i]:
+KeyError: 0
+[0m
+2024-03-17 18:33:51,719: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:33:53,451: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:33:53,453: root: INFO: Current backtesting datetime 2024-01-17 16:00:00-05:00
+2024-03-17 18:33:53,453: root: INFO: Current backtesting datetime 2024-01-18 09:30:00-05:00
+2024-03-17 18:33:53,453: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:33:53[0m
+2024-03-17 18:33:53,455: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 0[0m
+2024-03-17 18:33:53,456: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 73, in on_trading_iteration
+    if cash > last_prices[i]:
+KeyError: 0
+[0m
+2024-03-17 18:33:53,456: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:33:53,986: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:33:53,987: root: INFO: Current backtesting datetime 2024-01-18 16:00:00-05:00
+2024-03-17 18:33:53,987: root: INFO: Current backtesting datetime 2024-01-19 09:30:00-05:00
+2024-03-17 18:33:53,987: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:33:53[0m
+2024-03-17 18:33:53,990: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 0[0m
+2024-03-17 18:33:53,990: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 73, in on_trading_iteration
+    if cash > last_prices[i]:
+KeyError: 0
+[0m
+2024-03-17 18:33:53,990: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:33:54,486: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:33:54,487: root: INFO: Current backtesting datetime 2024-01-19 16:00:00-05:00
+2024-03-17 18:33:54,488: root: INFO: Current backtesting datetime 2024-01-20 09:30:00-05:00
+2024-03-17 18:33:54,488: asyncio: INFO: [AITrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-03-17 18:33:54,489: root: INFO: Current backtesting datetime 2024-01-20 09:29:00-05:00
+2024-03-17 18:33:54,491: root: INFO: Current backtesting datetime 2024-01-20 09:29:00-05:00
+2024-03-17 18:33:54,491: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:33:54,491: root: INFO: Current backtesting datetime 2024-01-22 08:30:00-05:00
+2024-03-17 18:33:54,492: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:33:54,493: root: INFO: Current backtesting datetime 2024-01-22 09:30:00-05:00
+2024-03-17 18:33:54,493: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:33:54,494: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:33:54[0m
+2024-03-17 18:33:54,495: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 0[0m
+2024-03-17 18:33:54,496: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 73, in on_trading_iteration
+    if cash > last_prices[i]:
+KeyError: 0
+[0m
+2024-03-17 18:33:54,497: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:33:55,004: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:33:55,005: root: INFO: Current backtesting datetime 2024-01-22 16:00:00-05:00
+2024-03-17 18:33:55,006: root: INFO: Current backtesting datetime 2024-01-23 09:30:00-05:00
+2024-03-17 18:33:55,006: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:33:55[0m
+2024-03-17 18:33:55,008: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 0[0m
+2024-03-17 18:33:55,009: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 73, in on_trading_iteration
+    if cash > last_prices[i]:
+KeyError: 0
+[0m
+2024-03-17 18:33:55,009: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:33:55,632: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:33:55,633: root: INFO: Current backtesting datetime 2024-01-23 16:00:00-05:00
+2024-03-17 18:33:55,633: root: INFO: Current backtesting datetime 2024-01-24 09:30:00-05:00
+2024-03-17 18:33:55,634: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:33:55[0m
+2024-03-17 18:33:55,636: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 0[0m
+2024-03-17 18:33:55,636: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 73, in on_trading_iteration
+    if cash > last_prices[i]:
+KeyError: 0
+[0m
+2024-03-17 18:33:55,636: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:33:55,963: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:33:55,965: root: INFO: Current backtesting datetime 2024-01-24 16:00:00-05:00
+2024-03-17 18:33:55,965: root: INFO: Current backtesting datetime 2024-01-25 09:30:00-05:00
+2024-03-17 18:33:55,965: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:33:55[0m
+2024-03-17 18:33:55,968: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 0[0m
+2024-03-17 18:33:55,968: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 73, in on_trading_iteration
+    if cash > last_prices[i]:
+KeyError: 0
+[0m
+2024-03-17 18:33:55,968: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:33:56,441: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:33:56,442: root: INFO: Current backtesting datetime 2024-01-25 16:00:00-05:00
+2024-03-17 18:33:56,443: root: INFO: Current backtesting datetime 2024-01-26 09:30:00-05:00
+2024-03-17 18:33:56,443: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:33:56[0m
+2024-03-17 18:33:56,445: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 0[0m
+2024-03-17 18:33:56,445: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 73, in on_trading_iteration
+    if cash > last_prices[i]:
+KeyError: 0
+[0m
+2024-03-17 18:33:56,445: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:33:56,965: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:33:56,966: root: INFO: Current backtesting datetime 2024-01-26 16:00:00-05:00
+2024-03-17 18:33:56,967: root: INFO: Current backtesting datetime 2024-01-27 09:30:00-05:00
+2024-03-17 18:33:56,967: asyncio: INFO: [AITrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-03-17 18:33:56,968: root: INFO: Current backtesting datetime 2024-01-27 09:29:00-05:00
+2024-03-17 18:33:56,970: root: INFO: Current backtesting datetime 2024-01-27 09:29:00-05:00
+2024-03-17 18:33:56,970: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:33:56,970: root: INFO: Current backtesting datetime 2024-01-29 08:30:00-05:00
+2024-03-17 18:33:56,971: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:33:56,972: root: INFO: Current backtesting datetime 2024-01-29 09:30:00-05:00
+2024-03-17 18:33:56,972: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:33:56,973: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:33:56[0m
+2024-03-17 18:33:56,975: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 0[0m
+2024-03-17 18:33:56,975: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 73, in on_trading_iteration
+    if cash > last_prices[i]:
+KeyError: 0
+[0m
+2024-03-17 18:33:56,975: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:33:57,467: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:33:57,468: root: INFO: Current backtesting datetime 2024-01-29 16:00:00-05:00
+2024-03-17 18:33:57,468: root: INFO: Current backtesting datetime 2024-01-30 09:30:00-05:00
+2024-03-17 18:33:57,469: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:33:57[0m
+2024-03-17 18:33:57,471: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 0[0m
+2024-03-17 18:33:57,471: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 73, in on_trading_iteration
+    if cash > last_prices[i]:
+KeyError: 0
+[0m
+2024-03-17 18:33:57,471: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:33:58,010: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:33:58,012: root: INFO: Current backtesting datetime 2024-01-30 16:00:00-05:00
+2024-03-17 18:33:58,012: root: INFO: Current backtesting datetime 2024-01-31 09:30:00-05:00
+2024-03-17 18:33:58,013: root: INFO: Current backtesting datetime 2024-01-31 15:59:00-05:00
+2024-03-17 18:33:58,013: asyncio: INFO: [AITrader] Executing the before_market_closes lifecycle method
+2024-03-17 18:33:58,014: root: INFO: Current backtesting datetime 2024-01-31 16:00:00-05:00
+2024-03-17 18:33:58,014: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:33:58,014: asyncio: INFO: [AITrader] Executing the on_strategy_end lifecycle method
+2024-03-17 18:33:58,664: root: INFO: Backtesting finished
+2024-03-17 18:33:58,895: root: INFO: There were no trades in this backtest.
+2024-03-17 18:33:59,135: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-03-17 18:33:59,136: backtest_stats: INFO: Backtest took 0:00:08.091919 for a speed of 0.000

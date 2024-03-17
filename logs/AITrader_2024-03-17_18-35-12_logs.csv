@@ -1,0 +1,194 @@
+2024-03-17 18:35:12,757: asyncio: INFO: [AITrader] Executing the initialize lifecycle method
+2024-03-17 18:35:12,980: alpaca.trading.stream: INFO: connected to: wss://paper-api.alpaca.markets/stream
+2024-03-17 18:35:13,395: root: INFO: Current backtesting datetime 2024-01-16 08:30:00-05:00
+2024-03-17 18:35:13,395: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:35:13,396: root: INFO: Current backtesting datetime 2024-01-16 09:30:00-05:00
+2024-03-17 18:35:13,396: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:35:13,397: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,403: asyncio: INFO: [AITrader] [32mNew order was created: market order of | 105.0 SPY buy | with status new[0m
+2024-03-17 18:35:13,405: asyncio: INFO: [AITrader] [34mTrading iteration ended at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,405: asyncio: INFO: [AITrader] Getting historical prices for SPY, 1 bars, 
+2024-03-17 18:35:13,405: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,406: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,409: asyncio: INFO: [AITrader] [32mOrder was filled: market order of | 105.0 SPY buy | at price $475.26 with status fill[0m
+2024-03-17 18:35:13,412: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:35:13,412: root: INFO: Current backtesting datetime 2024-01-16 16:00:00-05:00
+2024-03-17 18:35:13,413: root: INFO: Current backtesting datetime 2024-01-17 09:30:00-05:00
+2024-03-17 18:35:13,413: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,414: asyncio: INFO: [AITrader] [32mNew order was created: market order of | 53.0 SPY buy | with status new[0m
+2024-03-17 18:35:13,417: asyncio: INFO: [AITrader] [34mTrading iteration ended at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,417: asyncio: INFO: [AITrader] Getting historical prices for SPY, 1 bars, 
+2024-03-17 18:35:13,417: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,417: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,421: asyncio: INFO: [AITrader] [32mOrder was filled: market order of | 53.0 SPY buy | at price $471.82 with status fill[0m
+2024-03-17 18:35:13,423: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:35:13,424: root: INFO: Current backtesting datetime 2024-01-17 16:00:00-05:00
+2024-03-17 18:35:13,424: root: INFO: Current backtesting datetime 2024-01-18 09:30:00-05:00
+2024-03-17 18:35:13,425: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,426: asyncio: INFO: [AITrader] [32mNew order was created: market order of | 26.0 SPY buy | with status new[0m
+2024-03-17 18:35:13,428: asyncio: INFO: [AITrader] [34mTrading iteration ended at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,428: asyncio: INFO: [AITrader] Getting historical prices for SPY, 1 bars, 
+2024-03-17 18:35:13,428: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,428: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,434: asyncio: INFO: [AITrader] [32mOrder was filled: market order of | 26.0 SPY buy | at price $474.01 with status fill[0m
+2024-03-17 18:35:13,436: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:35:13,437: root: INFO: Current backtesting datetime 2024-01-18 16:00:00-05:00
+2024-03-17 18:35:13,437: root: INFO: Current backtesting datetime 2024-01-19 09:30:00-05:00
+2024-03-17 18:35:13,438: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,439: asyncio: INFO: [AITrader] [32mNew order was created: market order of | 13.0 SPY buy | with status new[0m
+2024-03-17 18:35:13,441: asyncio: INFO: [AITrader] [34mTrading iteration ended at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,441: asyncio: INFO: [AITrader] Getting historical prices for SPY, 1 bars, 
+2024-03-17 18:35:13,441: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,441: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,447: asyncio: INFO: [AITrader] [32mOrder was filled: market order of | 13.0 SPY buy | at price $477.65 with status fill[0m
+2024-03-17 18:35:13,449: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:35:13,450: root: INFO: Current backtesting datetime 2024-01-19 16:00:00-05:00
+2024-03-17 18:35:13,450: root: INFO: Current backtesting datetime 2024-01-20 09:30:00-05:00
+2024-03-17 18:35:13,452: asyncio: INFO: [AITrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-03-17 18:35:13,453: root: INFO: Current backtesting datetime 2024-01-20 09:29:00-05:00
+2024-03-17 18:35:13,454: root: INFO: Current backtesting datetime 2024-01-20 09:29:00-05:00
+2024-03-17 18:35:13,454: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:35:13,456: root: INFO: Current backtesting datetime 2024-01-22 08:30:00-05:00
+2024-03-17 18:35:13,457: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,458: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,459: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:35:13,460: root: INFO: Current backtesting datetime 2024-01-22 09:30:00-05:00
+2024-03-17 18:35:13,460: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:35:13,462: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,463: asyncio: INFO: [AITrader] [32mNew order was created: market order of | 6.0 SPY buy | with status new[0m
+2024-03-17 18:35:13,465: asyncio: INFO: [AITrader] [34mTrading iteration ended at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,465: asyncio: INFO: [AITrader] Getting historical prices for SPY, 1 bars, 
+2024-03-17 18:35:13,465: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,466: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,470: asyncio: INFO: [AITrader] [32mOrder was filled: market order of | 6.0 SPY buy | at price $484.01 with status fill[0m
+2024-03-17 18:35:13,472: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:35:13,473: root: INFO: Current backtesting datetime 2024-01-22 16:00:00-05:00
+2024-03-17 18:35:13,474: root: INFO: Current backtesting datetime 2024-01-23 09:30:00-05:00
+2024-03-17 18:35:13,475: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,476: asyncio: INFO: [AITrader] [32mNew order was created: market order of | 3.0 SPY buy | with status new[0m
+2024-03-17 18:35:13,478: asyncio: INFO: [AITrader] [34mTrading iteration ended at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,478: asyncio: INFO: [AITrader] Getting historical prices for SPY, 1 bars, 
+2024-03-17 18:35:13,478: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,478: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,481: asyncio: INFO: [AITrader] [32mOrder was filled: market order of | 3.0 SPY buy | at price $484.01 with status fill[0m
+2024-03-17 18:35:13,483: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:35:13,484: root: INFO: Current backtesting datetime 2024-01-23 16:00:00-05:00
+2024-03-17 18:35:13,484: root: INFO: Current backtesting datetime 2024-01-24 09:30:00-05:00
+2024-03-17 18:35:13,485: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,486: asyncio: INFO: [AITrader] [32mNew order was created: market order of | 2.0 SPY buy | with status new[0m
+2024-03-17 18:35:13,488: asyncio: INFO: [AITrader] [34mTrading iteration ended at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,488: asyncio: INFO: [AITrader] Getting historical prices for SPY, 1 bars, 
+2024-03-17 18:35:13,488: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,489: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,495: asyncio: INFO: [AITrader] [32mOrder was filled: market order of | 2.0 SPY buy | at price $487.81 with status fill[0m
+2024-03-17 18:35:13,497: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:35:13,499: root: INFO: Current backtesting datetime 2024-01-24 16:00:00-05:00
+2024-03-17 18:35:13,499: root: INFO: Current backtesting datetime 2024-01-25 09:30:00-05:00
+2024-03-17 18:35:13,500: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,501: asyncio: INFO: [AITrader] [32mNew order was created: market order of | 1.0 SPY buy | with status new[0m
+2024-03-17 18:35:13,502: asyncio: INFO: [AITrader] [34mTrading iteration ended at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,502: asyncio: INFO: [AITrader] Getting historical prices for SPY, 1 bars, 
+2024-03-17 18:35:13,502: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,502: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:13,508: asyncio: INFO: [AITrader] [32mOrder was filled: market order of | 1.0 SPY buy | at price $487.58 with status fill[0m
+2024-03-17 18:35:13,510: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:35:13,511: root: INFO: Current backtesting datetime 2024-01-25 16:00:00-05:00
+2024-03-17 18:35:13,512: root: INFO: Current backtesting datetime 2024-01-26 09:30:00-05:00
+2024-03-17 18:35:13,513: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:35:13[0m
+2024-03-17 18:35:13,514: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Decimal('0.0') is not a positive Decimal. Order quantity must be a positive Decimal[0m
+2024-03-17 18:35:13,515: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 70, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 308, in __init__
+    self.quantity = quantity
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 555, in quantity
+    self._quantity = check_quantity(quantity, "Order quantity must be a positive Decimal")
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\types.py", line 60, in check_quantity
+    result = check_numeric(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\types.py", line 22, in check_numeric
+    raise error
+ValueError: Decimal('0.0') is not a positive Decimal. Order quantity must be a positive Decimal
+[0m
+2024-03-17 18:35:13,515: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:35:15,184: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:35:15,185: root: INFO: Current backtesting datetime 2024-01-26 16:00:00-05:00
+2024-03-17 18:35:15,186: root: INFO: Current backtesting datetime 2024-01-27 09:30:00-05:00
+2024-03-17 18:35:15,187: asyncio: INFO: [AITrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-03-17 18:35:15,189: root: INFO: Current backtesting datetime 2024-01-27 09:29:00-05:00
+2024-03-17 18:35:15,190: root: INFO: Current backtesting datetime 2024-01-27 09:29:00-05:00
+2024-03-17 18:35:15,190: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:35:15,192: root: INFO: Current backtesting datetime 2024-01-29 08:30:00-05:00
+2024-03-17 18:35:15,192: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:15,193: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-17 18:35:15,194: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:35:15,196: root: INFO: Current backtesting datetime 2024-01-29 09:30:00-05:00
+2024-03-17 18:35:15,196: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:35:15,198: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:35:15[0m
+2024-03-17 18:35:15,198: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Decimal('0.0') is not a positive Decimal. Order quantity must be a positive Decimal[0m
+2024-03-17 18:35:15,199: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 70, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 308, in __init__
+    self.quantity = quantity
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 555, in quantity
+    self._quantity = check_quantity(quantity, "Order quantity must be a positive Decimal")
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\types.py", line 60, in check_quantity
+    result = check_numeric(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\types.py", line 22, in check_numeric
+    raise error
+ValueError: Decimal('0.0') is not a positive Decimal. Order quantity must be a positive Decimal
+[0m
+2024-03-17 18:35:15,199: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:35:15,865: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:35:15,867: root: INFO: Current backtesting datetime 2024-01-29 16:00:00-05:00
+2024-03-17 18:35:15,867: root: INFO: Current backtesting datetime 2024-01-30 09:30:00-05:00
+2024-03-17 18:35:15,867: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:35:15[0m
+2024-03-17 18:35:15,868: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: Decimal('0.0') is not a positive Decimal. Order quantity must be a positive Decimal[0m
+2024-03-17 18:35:15,869: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 70, in on_trading_iteration
+    order = self.create_order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy.py", line 663, in create_order
+    order = Order(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 308, in __init__
+    self.quantity = quantity
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\entities\order.py", line 555, in quantity
+    self._quantity = check_quantity(quantity, "Order quantity must be a positive Decimal")
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\types.py", line 60, in check_quantity
+    result = check_numeric(
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\types.py", line 22, in check_numeric
+    raise error
+ValueError: Decimal('0.0') is not a positive Decimal. Order quantity must be a positive Decimal
+[0m
+2024-03-17 18:35:15,869: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:35:16,323: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:35:16,324: root: INFO: Current backtesting datetime 2024-01-30 16:00:00-05:00
+2024-03-17 18:35:16,325: root: INFO: Current backtesting datetime 2024-01-31 09:30:00-05:00
+2024-03-17 18:35:16,325: root: INFO: Current backtesting datetime 2024-01-31 15:59:00-05:00
+2024-03-17 18:35:16,326: asyncio: INFO: [AITrader] Executing the before_market_closes lifecycle method
+2024-03-17 18:35:16,327: root: INFO: Current backtesting datetime 2024-01-31 16:00:00-05:00
+2024-03-17 18:35:16,327: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:35:16,327: asyncio: INFO: [AITrader] Executing the on_strategy_end lifecycle method
+2024-03-17 18:35:16,824: root: INFO: Backtesting finished
+2024-03-17 18:35:21,513: backtest_stats: INFO: Backtest took 0:00:08.757587 for a speed of 0.000

@@ -24,23 +24,17 @@ ALPACA_CREDS = {
     "PAPER": True
 }
 
-start_date = datetime(2023,12,15)
-end_date = datetime(2023,12,31) 
+start_date = datetime(2024,1,15)
+end_date = datetime(2024,1,31) 
 broker = Alpaca(ALPACA_CREDS) 
 strategy = AITrader(name='mlstrat', 
                     broker=broker, 
-                    parameters={"symbol":["SPY"], 
-                                "cash_at_risk":.5,
-                                "BASE_URL": BASE_URL,
-                                "API_KEY":API_KEY,
-                                "API_SECRET":API_SECRET})
+                    parameters={"assets":["SPY"], 
+                                "risk":.5,})
 strategy.backtest(
     YahooDataBacktesting, 
     start_date, 
     end_date, 
-    parameters={"symbol":["SPY"], 
-                "cash_at_risk":.5,
-                "BASE_URL": BASE_URL,
-                "API_KEY":API_KEY,
-                "API_SECRET":API_SECRET}
+    parameters={"assets":["SPY"], 
+                "risk":.5,}
 )

@@ -1,0 +1,240 @@
+2024-03-17 18:24:00,514: asyncio: INFO: [AITrader] Executing the initialize lifecycle method
+2024-03-17 18:24:00,721: alpaca.trading.stream: INFO: connected to: wss://paper-api.alpaca.markets/stream
+2024-03-17 18:24:01,145: root: INFO: Current backtesting datetime 2024-01-16 08:30:00-05:00
+2024-03-17 18:24:01,146: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:24:01,147: root: INFO: Current backtesting datetime 2024-01-16 09:30:00-05:00
+2024-03-17 18:24:01,147: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:24:01,148: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:24:01[0m
+2024-03-17 18:24:01,151: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 'AITrader' object has no attribute 'markets'[0m
+2024-03-17 18:24:01,152: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 67, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 58, in position_sizing
+    prices = np.array(self.get_last_prices(self.markets))
+AttributeError: 'AITrader' object has no attribute 'markets'
+[0m
+2024-03-17 18:24:01,152: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:24:01,153: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:24:01,154: root: INFO: Current backtesting datetime 2024-01-16 16:00:00-05:00
+2024-03-17 18:24:01,154: root: INFO: Current backtesting datetime 2024-01-17 09:30:00-05:00
+2024-03-17 18:24:01,154: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:24:01[0m
+2024-03-17 18:24:01,155: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 'AITrader' object has no attribute 'markets'[0m
+2024-03-17 18:24:01,156: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 67, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 58, in position_sizing
+    prices = np.array(self.get_last_prices(self.markets))
+AttributeError: 'AITrader' object has no attribute 'markets'
+[0m
+2024-03-17 18:24:01,156: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:24:02,692: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:24:02,693: root: INFO: Current backtesting datetime 2024-01-17 16:00:00-05:00
+2024-03-17 18:24:02,694: root: INFO: Current backtesting datetime 2024-01-18 09:30:00-05:00
+2024-03-17 18:24:02,694: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:24:02[0m
+2024-03-17 18:24:02,696: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 'AITrader' object has no attribute 'markets'[0m
+2024-03-17 18:24:02,697: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 67, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 58, in position_sizing
+    prices = np.array(self.get_last_prices(self.markets))
+AttributeError: 'AITrader' object has no attribute 'markets'
+[0m
+2024-03-17 18:24:02,697: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:24:03,359: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:24:03,360: root: INFO: Current backtesting datetime 2024-01-18 16:00:00-05:00
+2024-03-17 18:24:03,361: root: INFO: Current backtesting datetime 2024-01-19 09:30:00-05:00
+2024-03-17 18:24:03,361: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:24:03[0m
+2024-03-17 18:24:03,362: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 'AITrader' object has no attribute 'markets'[0m
+2024-03-17 18:24:03,363: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 67, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 58, in position_sizing
+    prices = np.array(self.get_last_prices(self.markets))
+AttributeError: 'AITrader' object has no attribute 'markets'
+[0m
+2024-03-17 18:24:03,363: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:24:03,867: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:24:03,868: root: INFO: Current backtesting datetime 2024-01-19 16:00:00-05:00
+2024-03-17 18:24:03,868: root: INFO: Current backtesting datetime 2024-01-20 09:30:00-05:00
+2024-03-17 18:24:03,869: asyncio: INFO: [AITrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-03-17 18:24:03,870: root: INFO: Current backtesting datetime 2024-01-20 09:29:00-05:00
+2024-03-17 18:24:03,871: root: INFO: Current backtesting datetime 2024-01-20 09:29:00-05:00
+2024-03-17 18:24:03,871: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:24:03,872: root: INFO: Current backtesting datetime 2024-01-22 08:30:00-05:00
+2024-03-17 18:24:03,872: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:24:03,873: root: INFO: Current backtesting datetime 2024-01-22 09:30:00-05:00
+2024-03-17 18:24:03,873: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:24:03,874: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:24:03[0m
+2024-03-17 18:24:03,875: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 'AITrader' object has no attribute 'markets'[0m
+2024-03-17 18:24:03,876: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 67, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 58, in position_sizing
+    prices = np.array(self.get_last_prices(self.markets))
+AttributeError: 'AITrader' object has no attribute 'markets'
+[0m
+2024-03-17 18:24:03,876: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:24:04,351: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:24:04,353: root: INFO: Current backtesting datetime 2024-01-22 16:00:00-05:00
+2024-03-17 18:24:04,353: root: INFO: Current backtesting datetime 2024-01-23 09:30:00-05:00
+2024-03-17 18:24:04,353: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:24:04[0m
+2024-03-17 18:24:04,355: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 'AITrader' object has no attribute 'markets'[0m
+2024-03-17 18:24:04,356: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 67, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 58, in position_sizing
+    prices = np.array(self.get_last_prices(self.markets))
+AttributeError: 'AITrader' object has no attribute 'markets'
+[0m
+2024-03-17 18:24:04,356: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:24:04,914: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:24:04,915: root: INFO: Current backtesting datetime 2024-01-23 16:00:00-05:00
+2024-03-17 18:24:04,916: root: INFO: Current backtesting datetime 2024-01-24 09:30:00-05:00
+2024-03-17 18:24:04,916: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:24:04[0m
+2024-03-17 18:24:04,918: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 'AITrader' object has no attribute 'markets'[0m
+2024-03-17 18:24:04,918: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 67, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 58, in position_sizing
+    prices = np.array(self.get_last_prices(self.markets))
+AttributeError: 'AITrader' object has no attribute 'markets'
+[0m
+2024-03-17 18:24:04,918: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:24:05,402: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:24:05,404: root: INFO: Current backtesting datetime 2024-01-24 16:00:00-05:00
+2024-03-17 18:24:05,405: root: INFO: Current backtesting datetime 2024-01-25 09:30:00-05:00
+2024-03-17 18:24:05,405: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:24:05[0m
+2024-03-17 18:24:05,406: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 'AITrader' object has no attribute 'markets'[0m
+2024-03-17 18:24:05,407: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 67, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 58, in position_sizing
+    prices = np.array(self.get_last_prices(self.markets))
+AttributeError: 'AITrader' object has no attribute 'markets'
+[0m
+2024-03-17 18:24:05,407: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:24:05,910: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:24:05,911: root: INFO: Current backtesting datetime 2024-01-25 16:00:00-05:00
+2024-03-17 18:24:05,912: root: INFO: Current backtesting datetime 2024-01-26 09:30:00-05:00
+2024-03-17 18:24:05,912: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:24:05[0m
+2024-03-17 18:24:05,913: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 'AITrader' object has no attribute 'markets'[0m
+2024-03-17 18:24:05,914: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 67, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 58, in position_sizing
+    prices = np.array(self.get_last_prices(self.markets))
+AttributeError: 'AITrader' object has no attribute 'markets'
+[0m
+2024-03-17 18:24:05,914: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:24:06,401: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:24:06,402: root: INFO: Current backtesting datetime 2024-01-26 16:00:00-05:00
+2024-03-17 18:24:06,403: root: INFO: Current backtesting datetime 2024-01-27 09:30:00-05:00
+2024-03-17 18:24:06,403: asyncio: INFO: [AITrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-03-17 18:24:06,405: root: INFO: Current backtesting datetime 2024-01-27 09:29:00-05:00
+2024-03-17 18:24:06,406: root: INFO: Current backtesting datetime 2024-01-27 09:29:00-05:00
+2024-03-17 18:24:06,406: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:24:06,407: root: INFO: Current backtesting datetime 2024-01-29 08:30:00-05:00
+2024-03-17 18:24:06,407: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:24:06,408: root: INFO: Current backtesting datetime 2024-01-29 09:30:00-05:00
+2024-03-17 18:24:06,408: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:24:06,409: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:24:06[0m
+2024-03-17 18:24:06,410: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 'AITrader' object has no attribute 'markets'[0m
+2024-03-17 18:24:06,411: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 67, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 58, in position_sizing
+    prices = np.array(self.get_last_prices(self.markets))
+AttributeError: 'AITrader' object has no attribute 'markets'
+[0m
+2024-03-17 18:24:06,411: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:24:06,949: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:24:06,950: root: INFO: Current backtesting datetime 2024-01-29 16:00:00-05:00
+2024-03-17 18:24:06,951: root: INFO: Current backtesting datetime 2024-01-30 09:30:00-05:00
+2024-03-17 18:24:06,951: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:24:06[0m
+2024-03-17 18:24:06,953: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: 'AITrader' object has no attribute 'markets'[0m
+2024-03-17 18:24:06,954: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 67, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 58, in position_sizing
+    prices = np.array(self.get_last_prices(self.markets))
+AttributeError: 'AITrader' object has no attribute 'markets'
+[0m
+2024-03-17 18:24:06,954: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:24:07,454: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:24:07,455: root: INFO: Current backtesting datetime 2024-01-30 16:00:00-05:00
+2024-03-17 18:24:07,455: root: INFO: Current backtesting datetime 2024-01-31 09:30:00-05:00
+2024-03-17 18:24:07,457: root: INFO: Current backtesting datetime 2024-01-31 15:59:00-05:00
+2024-03-17 18:24:07,457: asyncio: INFO: [AITrader] Executing the before_market_closes lifecycle method
+2024-03-17 18:24:07,458: root: INFO: Current backtesting datetime 2024-01-31 16:00:00-05:00
+2024-03-17 18:24:07,458: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:24:07,458: asyncio: INFO: [AITrader] Executing the on_strategy_end lifecycle method
+2024-03-17 18:24:07,987: root: INFO: Backtesting finished
+2024-03-17 18:24:08,216: root: INFO: There were no trades in this backtest.
+2024-03-17 18:24:08,660: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-03-17 18:24:08,660: backtest_stats: INFO: Backtest took 0:00:08.146951 for a speed of 0.000

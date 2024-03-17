@@ -1,0 +1,17 @@
+time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2024-01-16 09:30:00-05:00,AITrader,f553929bc1014b9f82aac505ba59283c,SPY,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-01-16 09:30:00-05:00,AITrader,f553929bc1014b9f82aac505ba59283c,SPY,buy,market,fill,1,gtc,0.0,1,stock,475.260009765625,105.0,0.0
+2024-01-17 09:30:00-05:00,AITrader,6959ef53ead64af1b73aa4fb13eb3812,SPY,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-01-17 09:30:00-05:00,AITrader,6959ef53ead64af1b73aa4fb13eb3812,SPY,buy,market,fill,1,gtc,0.0,1,stock,471.82000732421875,53.0,0.0
+2024-01-18 09:30:00-05:00,AITrader,7b6ef668ec5b4150bb8268b437cfdc04,SPY,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-01-18 09:30:00-05:00,AITrader,7b6ef668ec5b4150bb8268b437cfdc04,SPY,buy,market,fill,1,gtc,0.0,1,stock,474.010009765625,26.0,0.0
+2024-01-19 09:30:00-05:00,AITrader,6a9783f1d41c4201b0a1ff1aa67ae344,SPY,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-01-19 09:30:00-05:00,AITrader,6a9783f1d41c4201b0a1ff1aa67ae344,SPY,buy,market,fill,1,gtc,0.0,1,stock,477.6499938964844,13.0,0.0
+2024-01-22 09:30:00-05:00,AITrader,e0853f9efe8d441f8ef71610cba0ebcc,SPY,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-01-22 09:30:00-05:00,AITrader,e0853f9efe8d441f8ef71610cba0ebcc,SPY,buy,market,fill,1,gtc,0.0,1,stock,484.010009765625,6.0,0.0
+2024-01-23 09:30:00-05:00,AITrader,93b24f51a5bc4c5aa211929435f226da,SPY,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-01-23 09:30:00-05:00,AITrader,93b24f51a5bc4c5aa211929435f226da,SPY,buy,market,fill,1,gtc,0.0,1,stock,484.010009765625,3.0,0.0
+2024-01-24 09:30:00-05:00,AITrader,b4dab39e34db45c887b2061c50b5ca35,SPY,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-01-24 09:30:00-05:00,AITrader,b4dab39e34db45c887b2061c50b5ca35,SPY,buy,market,fill,1,gtc,0.0,1,stock,487.80999755859375,2.0,0.0
+2024-01-25 09:30:00-05:00,AITrader,f56a759cccba4830a16e8318c4053b92,SPY,buy,market,new,1,gtc,0.0,1,stock,,,
+2024-01-25 09:30:00-05:00,AITrader,f56a759cccba4830a16e8318c4053b92,SPY,buy,market,fill,1,gtc,0.0,1,stock,487.5799865722656,1.0,0.0
