@@ -1,0 +1,229 @@
+2024-03-17 18:01:18,223: asyncio: INFO: [AITrader] Executing the initialize lifecycle method
+2024-03-17 18:01:18,468: alpaca.trading.stream: INFO: connected to: wss://paper-api.alpaca.markets/stream
+2024-03-17 18:01:18,865: root: INFO: Current backtesting datetime 2023-12-15 08:30:00-05:00
+2024-03-17 18:01:18,865: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:01:18,867: root: INFO: Current backtesting datetime 2023-12-15 09:30:00-05:00
+2024-03-17 18:01:18,867: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:01:18,868: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:01:18[0m
+2024-03-17 18:01:18,870: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: No assets selected[0m
+2024-03-17 18:01:18,871: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 65, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 54, in position_sizing
+    raise ValueError("No assets selected")
+ValueError: No assets selected
+[0m
+2024-03-17 18:01:18,871: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:01:18,872: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:01:18,873: root: INFO: Current backtesting datetime 2023-12-15 16:00:00-05:00
+2024-03-17 18:01:18,873: root: INFO: Current backtesting datetime 2023-12-16 09:30:00-05:00
+2024-03-17 18:01:18,873: asyncio: INFO: [AITrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-03-17 18:01:18,875: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-03-17 18:01:18,876: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-03-17 18:01:18,876: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:01:18,876: root: INFO: Current backtesting datetime 2023-12-18 08:30:00-05:00
+2024-03-17 18:01:18,878: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:01:18,879: root: INFO: Current backtesting datetime 2023-12-18 09:30:00-05:00
+2024-03-17 18:01:18,879: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:01:18,879: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:01:18[0m
+2024-03-17 18:01:18,879: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: No assets selected[0m
+2024-03-17 18:01:18,880: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 65, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 54, in position_sizing
+    raise ValueError("No assets selected")
+ValueError: No assets selected
+[0m
+2024-03-17 18:01:18,880: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:01:20,864: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:01:20,866: root: INFO: Current backtesting datetime 2023-12-18 16:00:00-05:00
+2024-03-17 18:01:20,866: root: INFO: Current backtesting datetime 2023-12-19 09:30:00-05:00
+2024-03-17 18:01:20,866: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:01:20[0m
+2024-03-17 18:01:20,867: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: No assets selected[0m
+2024-03-17 18:01:20,867: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 65, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 54, in position_sizing
+    raise ValueError("No assets selected")
+ValueError: No assets selected
+[0m
+2024-03-17 18:01:20,867: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:01:21,520: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:01:21,522: root: INFO: Current backtesting datetime 2023-12-19 16:00:00-05:00
+2024-03-17 18:01:21,522: root: INFO: Current backtesting datetime 2023-12-20 09:30:00-05:00
+2024-03-17 18:01:21,522: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:01:21[0m
+2024-03-17 18:01:21,523: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: No assets selected[0m
+2024-03-17 18:01:21,523: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 65, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 54, in position_sizing
+    raise ValueError("No assets selected")
+ValueError: No assets selected
+[0m
+2024-03-17 18:01:21,523: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:01:22,019: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:01:22,020: root: INFO: Current backtesting datetime 2023-12-20 16:00:00-05:00
+2024-03-17 18:01:22,021: root: INFO: Current backtesting datetime 2023-12-21 09:30:00-05:00
+2024-03-17 18:01:22,022: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:01:22[0m
+2024-03-17 18:01:22,022: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: No assets selected[0m
+2024-03-17 18:01:22,022: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 65, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 54, in position_sizing
+    raise ValueError("No assets selected")
+ValueError: No assets selected
+[0m
+2024-03-17 18:01:22,022: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:01:22,635: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:01:22,637: root: INFO: Current backtesting datetime 2023-12-21 16:00:00-05:00
+2024-03-17 18:01:22,637: root: INFO: Current backtesting datetime 2023-12-22 09:30:00-05:00
+2024-03-17 18:01:22,637: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:01:22[0m
+2024-03-17 18:01:22,637: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: No assets selected[0m
+2024-03-17 18:01:22,638: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 65, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 54, in position_sizing
+    raise ValueError("No assets selected")
+ValueError: No assets selected
+[0m
+2024-03-17 18:01:22,638: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:01:23,084: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:01:23,085: root: INFO: Current backtesting datetime 2023-12-22 16:00:00-05:00
+2024-03-17 18:01:23,085: root: INFO: Current backtesting datetime 2023-12-23 09:30:00-05:00
+2024-03-17 18:01:23,086: asyncio: INFO: [AITrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-03-17 18:01:23,087: root: INFO: Current backtesting datetime 2023-12-23 09:29:00-05:00
+2024-03-17 18:01:23,088: root: INFO: Current backtesting datetime 2023-12-23 09:29:00-05:00
+2024-03-17 18:01:23,088: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:01:23,089: root: INFO: Current backtesting datetime 2023-12-26 08:30:00-05:00
+2024-03-17 18:01:23,090: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:01:23,091: root: INFO: Current backtesting datetime 2023-12-26 09:30:00-05:00
+2024-03-17 18:01:23,091: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:01:23,092: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:01:23[0m
+2024-03-17 18:01:23,092: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: No assets selected[0m
+2024-03-17 18:01:23,092: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 65, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 54, in position_sizing
+    raise ValueError("No assets selected")
+ValueError: No assets selected
+[0m
+2024-03-17 18:01:23,092: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:01:23,713: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:01:23,714: root: INFO: Current backtesting datetime 2023-12-26 16:00:00-05:00
+2024-03-17 18:01:23,714: root: INFO: Current backtesting datetime 2023-12-27 09:30:00-05:00
+2024-03-17 18:01:23,714: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:01:23[0m
+2024-03-17 18:01:23,714: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: No assets selected[0m
+2024-03-17 18:01:23,715: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 65, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 54, in position_sizing
+    raise ValueError("No assets selected")
+ValueError: No assets selected
+[0m
+2024-03-17 18:01:23,715: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:01:24,042: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:01:24,043: root: INFO: Current backtesting datetime 2023-12-27 16:00:00-05:00
+2024-03-17 18:01:24,043: root: INFO: Current backtesting datetime 2023-12-28 09:30:00-05:00
+2024-03-17 18:01:24,043: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:01:24[0m
+2024-03-17 18:01:24,043: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: No assets selected[0m
+2024-03-17 18:01:24,045: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 65, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 54, in position_sizing
+    raise ValueError("No assets selected")
+ValueError: No assets selected
+[0m
+2024-03-17 18:01:24,045: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:01:24,683: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:01:24,684: root: INFO: Current backtesting datetime 2023-12-28 16:00:00-05:00
+2024-03-17 18:01:24,684: root: INFO: Current backtesting datetime 2023-12-29 09:30:00-05:00
+2024-03-17 18:01:24,685: asyncio: INFO: [AITrader] [34mExecuting the on_trading_iteration lifecycle method at 2024-03-17 18:01:24[0m
+2024-03-17 18:01:24,685: asyncio: INFO: [AITrader] [31mAn error occurred during the on_trading_iteration lifecycle method: No assets selected[0m
+2024-03-17 18:01:24,685: asyncio: INFO: [AITrader] [31mTraceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 365, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 65, in on_trading_iteration
+    cash, last_prices, quantities = self.position_sizing() # Find the position size for the markets selected
+  File "C:\Users\romeo\OneDrive\Documents\2024\Personal\trading bot\trading_bot\bot\trading_bot.py", line 54, in position_sizing
+    raise ValueError("No assets selected")
+ValueError: No assets selected
+[0m
+2024-03-17 18:01:24,685: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 18:01:25,012: asyncio: INFO: [AITrader] [34mSleeping for 86400 seconds[0m
+2024-03-17 18:01:25,014: root: INFO: Current backtesting datetime 2023-12-29 16:00:00-05:00
+2024-03-17 18:01:25,014: root: INFO: Current backtesting datetime 2023-12-30 09:30:00-05:00
+2024-03-17 18:01:25,014: asyncio: INFO: [AITrader] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-03-17 18:01:25,016: root: INFO: Current backtesting datetime 2023-12-30 09:29:00-05:00
+2024-03-17 18:01:25,017: root: INFO: Current backtesting datetime 2023-12-30 09:29:00-05:00
+2024-03-17 18:01:25,017: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:01:25,018: root: INFO: Current backtesting datetime 2024-01-02 08:30:00-05:00
+2024-03-17 18:01:25,018: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 18:01:25,019: root: INFO: Current backtesting datetime 2024-01-02 09:30:00-05:00
+2024-03-17 18:01:25,019: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 18:01:25,020: root: INFO: Current backtesting datetime 2024-01-02 15:59:00-05:00
+2024-03-17 18:01:25,021: asyncio: INFO: [AITrader] Executing the before_market_closes lifecycle method
+2024-03-17 18:01:25,022: root: INFO: Current backtesting datetime 2024-01-02 16:00:00-05:00
+2024-03-17 18:01:25,022: asyncio: INFO: [AITrader] Executing the after_market_closes lifecycle method
+2024-03-17 18:01:25,022: asyncio: INFO: [AITrader] Executing the on_strategy_end lifecycle method
+2024-03-17 18:01:25,641: root: INFO: Backtesting finished
+2024-03-17 18:01:25,830: root: INFO: There were no trades in this backtest.
+2024-03-17 18:01:26,132: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-03-17 18:01:26,132: backtest_stats: INFO: Backtest took 0:00:07.911149 for a speed of 0.000

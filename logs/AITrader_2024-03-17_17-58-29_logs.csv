@@ -1,0 +1,25 @@
+2024-03-17 17:58:29,826: asyncio: INFO: [AITrader] Executing the initialize lifecycle method
+2024-03-17 17:58:30,038: alpaca.trading.stream: INFO: connected to: wss://paper-api.alpaca.markets/stream
+2024-03-17 17:58:30,482: root: INFO: Current backtesting datetime 2023-12-15 08:30:00-05:00
+2024-03-17 17:58:30,482: asyncio: INFO: [AITrader] Executing the before_market_opens lifecycle method
+2024-03-17 17:58:30,484: root: INFO: Current backtesting datetime 2023-12-15 09:30:00-05:00
+2024-03-17 17:58:30,484: asyncio: INFO: [AITrader] Executing the before_starting_trading lifecycle method
+2024-03-17 17:58:30,484: asyncio: ERROR: [AITrader] 'int' object is not subscriptable
+2024-03-17 17:58:30,488: asyncio: ERROR: [AITrader] Traceback (most recent call last):
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 911, in run
+    self._run_trading_session()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 859, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\romeo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\lumibot\strategies\strategy_executor.py", line 346, in _on_trading_iteration
+    sleep_units = self.strategy.sleeptime[-1].lower()
+TypeError: 'int' object is not subscriptable
+
+2024-03-17 17:58:30,490: asyncio: INFO: [AITrader] Executing the on_bot_crash event method
+2024-03-17 17:58:30,499: root: INFO: Backtesting finished
+2024-03-17 17:58:31,743: asyncio: WARNING: [AITrader] Cannot plot returns because the strategy returns are missing
+2024-03-17 17:58:31,815: asyncio: WARNING: [AITrader] Cannot create a tearsheet because the strategy returns are missing
+2024-03-17 17:58:31,815: backtest_stats: INFO: Backtest took 0:00:01.990751 for a speed of 0.000

@@ -1,0 +1,6 @@
+2024-03-17 17:57:21,858: asyncio: INFO: [AITrader] Executing the initialize lifecycle method
+2024-03-17 17:57:21,867: root: INFO: Backtesting finished
+2024-03-17 17:57:22,055: alpaca.trading.stream: INFO: connected to: wss://paper-api.alpaca.markets/stream
+2024-03-17 17:57:23,232: asyncio: WARNING: [AITrader] Cannot plot returns because the strategy returns are missing
+2024-03-17 17:57:23,293: asyncio: WARNING: [AITrader] Cannot create a tearsheet because the strategy returns are missing
+2024-03-17 17:57:23,293: backtest_stats: INFO: Backtest took 0:00:01.438354 for a speed of 0.000
