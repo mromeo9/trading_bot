@@ -30,11 +30,17 @@ broker = Alpaca(ALPACA_CREDS)
 strategy = AITrader(name='mlstrat', 
                     broker=broker, 
                     parameters={"assets":["SPY"], 
-                                "risk":.5,})
+                                "risk":.5,
+                                "BASE_URL":BASE_URL,
+                                "API_KEY":API_KEY,
+                                "API_SECRET":API_SECRET})
 strategy.backtest(
     YahooDataBacktesting, 
     start_date, 
     end_date, 
     parameters={"assets":["SPY"], 
-                "risk":.5,}
+                "risk":.5,
+                "BASE_URL":BASE_URL,
+                "API_KEY":API_KEY,
+                "API_SECRET":API_SECRET}
 )

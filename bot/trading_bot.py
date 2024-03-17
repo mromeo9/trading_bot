@@ -19,21 +19,23 @@ class AITrader(Strategy):
 
     def initialize(self, 
                    assets:list = [], 
-                   risk:float = 0.5):#, BASE_URL:str = "",API_KEY:str = "",API_SECRET:str = ""):
-        """
+                   risk:float = 0.5, 
+                   BASE_URL:str = "",
+                   API_KEY:str = "",
+                   API_SECRET:str = ""):
+        
+        #Creating the API for the news 
         self.BASE_URL = BASE_URL
         self.API_KEY = API_KEY
         self.API_SECRET = API_SECRET
-"""
-        """
+
         if (not self.BASE_URL) and (not self.API_KEY) and (not self.API_SECRET):
-            print('(*******************)')
-            print("HERE")
-            print('(*******************)')
-            self.data_api = REST(base_url=self.BASE_URL, key_id=self.API_KEY, secret_key=self.API_SECRET)
-        else:
             raise ValueError("Missing the API")
-        """
+        else:
+            
+            self.data_api = REST(base_url=self.BASE_URL, key_id=self.API_KEY, secret_key=self.API_SECRET)
+        
+        #Setting the paramters 
         self.risk = risk
         self.assets = assets
         self.sleeptime = "24H"
@@ -76,7 +78,7 @@ class AITrader(Strategy):
                     take_profit_price=last_prices[asset]*1.2,
                     stop_loss_price=last_prices[asset]*0.95
                 )
-                print("******HERE*********")
+
                 #submit the order
                 self.submit_order(order)
 
