@@ -29,10 +29,9 @@ class AITrader(Strategy):
         self.API_KEY = API_KEY
         self.API_SECRET = API_SECRET
 
-        if (not self.BASE_URL) and (not self.API_KEY) and (not self.API_SECRET):
+        if (not self.BASE_URL) or (not self.API_KEY) or (not self.API_SECRET):
             raise ValueError("Missing the API")
-        else:
-            
+        else:  
             self.data_api = REST(base_url=self.BASE_URL, key_id=self.API_KEY, secret_key=self.API_SECRET)
         
         #Setting the paramters 
